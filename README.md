@@ -9,7 +9,7 @@ Remote access to the operating system with the Telegram bot.
 ## Commands
 
 | Command | Description |
-| --- | --- | --- |
+| --- | --- |
 | `/start` | start bot |
 | `/save ` | save text to databse folder |
 | `/savelist`|show saved text names|
