@@ -10,6 +10,8 @@ Remote access to the operating system with the Telegram bot.
 1.Home 
 - Screen Shot 📸
 - Power Options 🔋
+  - Shutdown 🚫
+  - Restart ♻️
 - Play Sound 🔉
 - File Manager 📁
 - Save Text 💬
@@ -17,8 +19,7 @@ Remote access to the operating system with the Telegram bot.
 - Open App 📱
 
 2.Power Options
-- Shutdown 🚫
-- Restart ♻️
+
 
 3.Play Sound
 - Beep 🔉
