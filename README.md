@@ -6,8 +6,8 @@ Remote access to the operating system with the Telegram bot.
 1.On line 27 you have to replace your token.
 2.On line 370 you must enter your Telegram ID without @. For example : iArash
 
-## bot menus and buttons
-1.Home 
+## Buttons and sub-buttons
+
 - Screen Shot 📸
 - Power Options 🔋
 
@@ -15,20 +15,18 @@ Remote access to the operating system with the Telegram bot.
   - Restart ♻️
   
 - Play Sound 🔉
+
+  - Beep 🔉
+  - Music 🎧
+  - TTS 🗣
+
 - File Manager 📁
+
+  - Download Notes 📥
+  - Download File 📂
+  - Files List 📩
+
 - Save Text 💬
 - Web Browser 🌐
 - Open App 📱
 
-2.Power Options
-
-
-3.Play Sound
-- Beep 🔉
-- Music 🎧
-- TTS 🗣
-
-4.File Manager
-- Download Notes 📥
-- Download File 📂
-- Files List 📩
