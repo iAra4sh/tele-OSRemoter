@@ -79,7 +79,7 @@ def startcmd(user , check):
     user_ip = user_ip['ip']
     
 
-    bot.send_message(user_chatid,f'Hello {user_firstname} welcome To OS Remoter Bot \nCoded By sample 😎',reply_markup=buttons)
+    bot.send_message(user_chatid,f'Hello {user_firstname} welcome To OS Remoter Bot \nCoded By me 😎',reply_markup=buttons)
     bot.send_message(user_chatid,f'''
      🕐 Bot Runtime : {runtime} 
 
@@ -162,13 +162,13 @@ def shutdown_or_restart(user):
 
     if(data.user_want_shutdown == 1 and data.user_want_restart == 0):
         bot.send_message(user_chatid,'your pc shutting Down...')
-        #os.system('shutdown /s /t 1')
+        os.system('shutdown /s /t 1')
         data.user_want_shutdown = 0
         data.user_want_restart = 0
 
     elif(data.user_want_shutdown == 0 and data.user_want_restart == 1):
         bot.send_message(user_chatid,'your pc Restarting...')
-        #os.system('shutdown /r /t 1')   
+        os.system('shutdown /r /t 1')   
         data.user_want_shutdown = 0
         data.user_want_restart = 0 
 
@@ -202,7 +202,7 @@ def playsound_btn(user,check=None):
 
     if(check == 2):
         bot.send_message(user_chatid,'Playing Music... ▶️')
-        playsound('outro.mp3')
+        playsound('your_music_name.mp3')
         bot.send_message(user_chatid,'Done ✅')
 
     if(check == 3):
